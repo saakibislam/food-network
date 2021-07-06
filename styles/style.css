@@ -57,7 +57,7 @@ p{
     letter-spacing: 1px;
 }
 .about{
-    background-image: url("/images/shapes/frame.jpg");
+    background-image: url("../images/shapes/frame.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
