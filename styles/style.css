@@ -10,7 +10,7 @@ h1{
 section{
     display: flex;
 }
-.intro{
+p{
     margin-bottom: 50px;
 }
 .half-width{
@@ -28,4 +28,8 @@ section{
     padding: 15px 40px;
     border-radius: 25px;
     background-image: linear-gradient(#fc4a1a, #f7b733);
+}
+.about{
+    background-image: url("/images/shapes/Frame58.jpg");
+    background-repeat: no-repeat;
 }
