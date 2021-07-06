@@ -104,3 +104,16 @@ footer{
 footer h2{
     letter-spacing: 15px;
 }
+.review{
+    text-align: center;
+    margin: 3% 8% ;
+    padding: 30px ;
+    
+
+}
+.review img{
+    width: 100%
+}
+.review-box{
+    margin:2% 7%;
+}
