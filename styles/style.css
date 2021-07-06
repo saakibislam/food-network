@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+header{
+    display: flex;
+}
 h1{
     font-size: 50px;
 }
@@ -8,18 +11,37 @@ h2{
     font-size: 30px;
     font-weight: 700;
 }
+p{
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+.navbar{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar-item{
+    display: inline;
+    margin-left: 100px;
+}
 .orange-color{
     color: orange;
+}
+.gray-color{
+    color: gray;
 }
 .flexible{
     display: flex;
 }
-p{
-    margin-bottom: 50px;
-}
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding: 2% 5% 5%;
     margin-left: 30px;
 }
 .half-width img{
@@ -32,15 +54,17 @@ p{
     padding: 15px 40px;
     border-radius: 25px;
     background-image: linear-gradient(#fc4a1a, #f7b733);
+    letter-spacing: 1px;
 }
 .about{
-    background-image: url("/images/shapes/Frame58.jpg");
+    background-image: url("/images/shapes/frame.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .recipe-intro{
 
     text-align: center;
-    padding: 2% 10%;
+    padding: 1% 15%;
 }
 .recipe-box{
     display: flex;
@@ -50,17 +74,33 @@ p{
     width: 30%;
     margin: 0px 20px 10px;
     padding: 15px 15px;
-    box-shadow:0px 0px 5px black;
+    box-shadow:0px 0px 5px gray;
     border-radius: 25px;
+}
+.trio h2{
+    font-weight: 700;
 }
 .trio img{
     width: 100%;
-     border-radius: 25px;
-     margin-bottom: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.social-media{
+    display: flex;
+    margin:3% 8%;
+    box-shadow:0px 0px 5px grey;
+    border-radius: 15px;
+}
+.social-media-trio{
+    padding: 2% 10%;
 }
 footer{
-    background-color: salmon;
+    background-image: linear-gradient(#200122, #6f0000);
     color:white;
     text-align: center;
     padding: 7%;
+    word-spacing: 2px;
+}
+footer h2{
+    letter-spacing: 15px;
 }

@@ -8,68 +8,97 @@
     <title>Food Network</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+    <header>
+            <ul class="navbar">
+                <li class="navbar-item"> <a href="/index.html">Home</a></li>
+                <li class="navbar-item"> <a href="#aboutSection">About</a></li>
+                <li class="navbar-item"> <a href="#recipeSection">Recipes</a></li>
+                <li class="navbar-item"> <a href="#socialMedia">Social Media</a></li>
+            </ul>
+    </header>
+
     <section class="flexible">
         <div class="half-width">
             <h1> <span class="orange-color">Skip </span>The Diet, <br> Eat Healthy <br> With Food Network</h1>
-            <p>Eating a healthy diet is not about strict limitations, staying unrealistically thin, or
+            <p class="gray-color">Eating a healthy diet is not about strict limitations, staying unrealistically thin,
+                or
                 depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy,
                 improving your health, and boosting your mood.</p>
             <a class="link-button" target="_blank" href="https://www.google.com">Order Now</a>
         </div>
         <div class="half-width">
-            <img class="section-image" src="images/into-image.png" alt="intro shape">
+            <img class="section-image" src="images/fox/fox-chase-chicken.png" alt="intro shape">
         </div>
     </section>
 
-    <section class="flexible about">
+    <section id="aboutSection" class="flexible about">
         <div class="half-width">
-            <img src="images/fox1-removebg-preview.png" alt="">
+            <img src="images/fox/decent-fox.png" alt="">
         </div>
         <div class="half-width">
             <h1>About Me</h1>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, nihil! Quos perspiciatis,
-                voluptatem provident, labore esse tenetur officia ipsam fugiat maxime quod aperiam perferendis. Atque
-                veritatis quisquam deserunt recusandae repellat!
+                Foxes belong to the scientific Canidae family, like dogs and wolves. Because of their smaller size,
+                though, they tend to hunt more like cats. Their vocalizations also resemble a mixture of both dog and
+                cat sounds.
             </p>
-            <a class="link-button" target="_blank" href="https://www.google.com">Contact Me</a>
+            <a class="link-button" target="_blank"
+                href="https://wonderopolis.org/wonder/what-is-the-real-sound-that-a-fox-makes">Learn More</a>
+        </div>
+    </section>
+
+    <section id="recipeSection">
+        <div class="recipe-intro">
+            <h1 class="gray-color">My Recipes</h1>
+            <p>The largest online collection of professionally-tested recipes, reliable kitchen tips, and mouthwatering daily food content. Come, search, cook, and share.</p>
+        </div>
+        <div class="recipe-box">
+            <div class="trio">
+                <img src="images/recipe/chicken.jpeg" alt="Whole Roasted Chicken">
+                <h2>Perfect Roast Chicken</h2>
+                <p>Preheat the oven to 425 degrees F. Remove the chicken giblets. Rinse the chicken inside and out.
+                    Remove any excess fat and leftover pin feathers and pat the outside dry. Liberally salt and pepper
+                    the inside of the chicken..</p>
+            </div>
+            <div class="trio">
+                <img src="images/recipe/duck.jpg" alt="Crisp Roast Duck">
+                <h2>Crisp Roast Duck</h2>
+                <p>A whole roasted duck doesn't have to be fussy. With just a few hours' roasting and hardly any work at
+                    all, you can have a juicy bird with crisp skin—the best of both textures.</p>
+            </div>
+            <div class="trio">
+                <img src="images/recipe/salmon.jpg" alt="">
+                <h2>Brown Sugar Glazed Salmon</h2>
+                <p>The brown sugar glaze in this salmon recipe is the easiest glaze I have ever made.  I am a baker by nature, and glazes are kind of my thing.  There are literally two ingredients in this glaze recipe. </p>
+            </div>
         </div>
     </section>
 
     <section>
-        <div class="recipe-intro">
-            <h1>My Recipes</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veritatis aperiam deserunt itaque perferendis
-                impedit cupiditate sint exercitationem, excepturi.</p>
-        </div>
-        <div class="recipe-box">
-            <div class="trio">
-                <img src="images/whole_roasted_chicken_main.jpg" alt="">
-                <h2> Recipe 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eum!</p>
+        <div id="socialMedia" class="social-media">
+            <div class="social-media-trio">
+                <h1>700k</h1>
+                <p>Youtube Subscribers</p>
             </div>
-            <div class="trio">
-                <img src="images/whole_roasted_chicken_main.jpg" alt="">
-                <h2> Recipe 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eum!</p>
+            <div class="social-media-trio">
+                <h1>2.4m</h1>
+                <p>Instagram Followers</p>
             </div>
-            <div class="trio">
-                <img src="images/whole_roasted_chicken_main.jpg" alt="">
-                <h2> Recipe 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eum!</p>
+            <div class="social-media-trio">
+                <h1>100k</h1>
+                <p>Dribbble Shot Likes</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <h2>FOOD NETWORK</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consequuntur deserunt eum omnis dicta
-            eaque.</p>
+        <h2> <span class="orange-color">FOOD</span><span class="gray-color">NETWORK</span></h2>
+        <p> <q>You don't have to eat less,<br> you just have to eat right.</q></p>
     </footer>
 
 </body>
