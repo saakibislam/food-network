@@ -1,53 +1,66 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-header{
+
+header {
     display: flex;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 30px;
     font-weight: 700;
 }
-p{
+
+p {
     font-size: 1rem;
     margin-bottom: 50px;
 }
-.navbar{
+
+.navbar {
     float: right;
     list-style: none;
     margin-top: 50px;
     margin-left: 30%;
 }
-.navbar a{
+
+.navbar a {
     color: black;
     text-decoration: none;
     font-size: 20px;
 }
-.navbar-item{
+
+.navbar-item {
     display: inline;
     margin-left: 100px;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
-.gray-color{
+
+.gray-color {
     color: gray;
 }
-.flexible{
+
+.flexible {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 2% 5% 5%;
     margin-left: 30px;
 }
-.half-width img{
+
+.half-width img {
     width: 100%;
 }
-.link-button{
+
+.link-button {
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -56,64 +69,83 @@ p{
     background-image: linear-gradient(#fc4a1a, #f7b733);
     letter-spacing: 1px;
 }
-.about{
+
+.about {
     background-image: url("../images/shapes/frame.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.recipe-intro{
 
+.recipe-intro {
     text-align: center;
     padding: 1% 15%;
 }
-.recipe-box{
+
+.recipe-box {
     display: flex;
-    margin:3% 8%;
+    margin: 3% 8%;
 }
-.trio{
+
+.trio {
     width: 30%;
     margin: 0px 20px 10px;
     padding: 15px 15px;
-    box-shadow:0px 0px 5px gray;
+    box-shadow: 0px 0px 5px gray;
     border-radius: 25px;
 }
-.trio h2{
+
+.trio h2 {
     font-weight: 700;
 }
-.trio img{
+
+.trio img {
     width: 100%;
     border-radius: 25px;
     margin-bottom: 20px;
 }
-.social-media{
+
+.trio:hover {
+    transform: scale(1.025);
+    transition: transform 1s ease-in;
+}
+
+.social-media {
     display: flex;
-    margin:3% 8%;
-    box-shadow:0px 0px 5px grey;
+    margin: 3% 8%;
+    box-shadow: 0px 0px 5px grey;
     border-radius: 15px;
 }
-.social-media-trio{
+
+.social-media-trio {
     padding: 2% 10%;
 }
-footer{
+
+footer {
     background-image: linear-gradient(#200122, #6f0000);
-    color:white;
+    color: white;
     text-align: center;
     padding: 7%;
     word-spacing: 2px;
 }
-footer h2{
+
+footer h2 {
     letter-spacing: 15px;
 }
-.review{
-    text-align: center;
-    margin: 3% 8% ;
-    padding: 30px ;
-    
 
+.review {
+    text-align: center;
+    margin: 3% 8%;
+    padding: 30px;
 }
-.review img{
+
+.review img {
     width: 100%
 }
-.review-box{
-    margin:2% 7%;
+
+.review-box {
+    margin: 2% 7%;
+}
+
+.review-box:hover {
+    transform: scale(1.025)
 }
